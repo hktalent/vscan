@@ -1,0 +1,7 @@
+1、集成了nuclei
+2 精准扫描 UrlPrecise=true，避免包含上下文的url经过naabu后导致失去了上下文，最后到vscan到时候出现大量404
+UrlPrecise=true ./main -l xx.txt
+3、优化基于相似度算法识别404
+4、优化密码字典
+5、优化同一个域名多个ip时，启用多ip扫描，避免遗漏
+
