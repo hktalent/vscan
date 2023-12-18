@@ -20,8 +20,8 @@ require (
 	github.com/projectdiscovery/networkpolicy v0.0.1
 	github.com/remeh/sizedwaitgroup v1.0.0
 	go.uber.org/ratelimit v0.2.0
-	golang.org/x/net v0.0.0-20220520000938-2e3eb7b945c2
-	golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a
+	golang.org/x/net v0.10.0
+	golang.org/x/sys v0.15.0
 )
 
 require (
@@ -50,7 +50,7 @@ require (
 	github.com/syndtr/goleveldb v1.0.0 // indirect
 	github.com/yl2chen/cidranger v1.0.2 // indirect
 	go.uber.org/atomic v1.9.0
-	golang.org/x/text v0.3.7
+	golang.org/x/text v0.14.0
 	gopkg.in/yaml.v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
@@ -194,11 +194,10 @@ require (
 	go.uber.org/multierr v1.8.0 // indirect
 	go.uber.org/zap v1.21.0 // indirect
 	goftp.io/server/v2 v2.0.0 // indirect
-	golang.org/x/crypto v0.0.0-20220210151621-f4118a5b28e2 // indirect
-	golang.org/x/mod v0.4.2 // indirect
+	golang.org/x/crypto v0.17.0 // indirect
+	golang.org/x/mod v0.8.0 // indirect
 	golang.org/x/time v0.0.0-20220411224347-583f2d630306 // indirect
-	golang.org/x/tools v0.1.6-0.20210726203631-07bc1bf47fb2 // indirect
-	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
+	golang.org/x/tools v0.6.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6 // indirect
 	gopkg.in/corvus-ch/zbase32.v1 v1.0.0 // indirect
